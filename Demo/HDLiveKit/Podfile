@@ -1,0 +1,21 @@
+source "https://github.com/CocoaPods/Specs.git"
+platform :ios, '9.0'
+
+target 'HDLiveKit' do
+  use_frameworks!
+
+
+pod 'Mantle'
+pod 'Masonry'
+pod 'SDWebImage'
+pod 'Reachability'
+pod 'KVOController'
+pod 'MBProgressHUD'
+pod 'ODRefreshControl'
+pod 'Toast'
+pod "LeoDanmakuKit"
+pod 'TZImagePickerController'
+pod 'Masonry'
+pod 'AliyunOSSiOS'
+pod 'Bugly'
+end
