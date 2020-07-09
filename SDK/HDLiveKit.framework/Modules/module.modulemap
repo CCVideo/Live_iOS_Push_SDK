@@ -1,6 +1,0 @@
-framework module HDLiveKit {
-  umbrella header "HDLiveKit.h"
-
-  export *
-  module * { export * }
-}

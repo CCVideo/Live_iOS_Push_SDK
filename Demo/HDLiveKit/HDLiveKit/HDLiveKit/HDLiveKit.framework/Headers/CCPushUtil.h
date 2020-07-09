@@ -22,6 +22,7 @@
  *    @brief    dict 房间信息
  *    manuallyRecordMode //是否开启手动录制 0 未开启  1 开启
  *    module 房间模板类型
+ *    openHostMode  是否是主持人模式
  */
 -(void)roomInfo:(NSDictionary *)dict;
 /**
@@ -90,6 +91,24 @@
  * @brief	用户自定义消息
  */
 - (void)customMessage:(NSString *)message;
+/**
+ * @brief   主持人开始直播，直播开始
+ */
+-(void)publishStream;
+/**
+ * @brief   主持人停止直播，直播结束
+ */
+- (void)endStream;
+/**
+ * @brief   主持人模式设置本人作为主讲
+ *
+ *  @param isMainSpeaker 自己是否为主讲
+ */
+-(void)setMainSpeaker:(BOOL)isMainSpeaker;
+/**
+ * @brief   被踢出直播间
+*/
+- (void)kick_out;
 
 @end
 

@@ -6284,7 +6284,6 @@
                     this.spareUri = tempUri;
                 };
             })(socket, spareUri);
-
             //1
             socket.on('connect', function (data) {
                 socket_message('connect', data);
@@ -6333,6 +6332,10 @@
             //12
             socket.on('publish_stream', function (data) {
                 socket_message('publish_stream', data);
+            });
+            //53  推流主持人切换主讲
+            socket.on('switch_stream', function (data) {
+                socket_message('switch_stream', data);
             });
             //13
             socket.on('end_stream', function (data) {
@@ -6502,6 +6505,7 @@
             socket.on('ban_delete_chat', function(data){
                     socket_message('ban_delete_chat', data);
             });
+            
      
         }
         function socket_message(type,data){

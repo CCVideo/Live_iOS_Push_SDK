@@ -70,6 +70,7 @@
 		4B8FBD482464F897004FD980 /* CCPreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8FBD472464F897004FD980 /* CCPreView.m */; };
 		4B9194FB2451628A00282B32 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9194FA2451628A00282B32 /* Launch Screen.storyboard */; };
 		4BDA7CDA246FB0F800440A46 /* CCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA7CD9246FB0F800440A46 /* CCAlertView.m */; };
+		4BE4A62624B2F87E008FEAC3 /* libSystem.B.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE4A62524B2F872008FEAC3 /* libSystem.B.tbd */; };
 		4BE64CB12480A55E00E1C8B4 /* CCBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4BE64CAF2480A55E00E1C8B4 /* CCBundle.bundle */; };
 		4BE64CB22480A56900E1C8B4 /* HDLiveKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE64CAE2480A55E00E1C8B4 /* HDLiveKit.framework */; };
 		4BE64CB32480A56900E1C8B4 /* HDLiveKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE64CAE2480A55E00E1C8B4 /* HDLiveKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -230,6 +231,7 @@
 		4B9194FA2451628A00282B32 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4BDA7CD8246FB0F800440A46 /* CCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCAlertView.h; sourceTree = "<group>"; };
 		4BDA7CD9246FB0F800440A46 /* CCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCAlertView.m; sourceTree = "<group>"; };
+		4BE4A62524B2F872008FEAC3 /* libSystem.B.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.B.tbd; path = usr/lib/libSystem.B.tbd; sourceTree = SDKROOT; };
 		4BE64CAE2480A55E00E1C8B4 /* HDLiveKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HDLiveKit.framework; sourceTree = "<group>"; };
 		4BE64CAF2480A55E00E1C8B4 /* CCBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CCBundle.bundle; sourceTree = "<group>"; };
 		78A35944BEDCB653CA619022 /* Pods-HDLiveKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HDLiveKit.release.xcconfig"; path = "Target Support Files/Pods-HDLiveKit/Pods-HDLiveKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 			files = (
 				37527EE9E6B8B5FEB468D5A7 /* Pods_HDLiveKit.framework in Frameworks */,
 				4BE64CB22480A56900E1C8B4 /* HDLiveKit.framework in Frameworks */,
+				4BE4A62624B2F87E008FEAC3 /* libSystem.B.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,6 +538,7 @@
 		7749E237934D94FB60E7BE8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4BE4A62524B2F872008FEAC3 /* libSystem.B.tbd */,
 				2AE970E6A1B47CBAC4109C4E /* Pods_HDLiveKit.framework */,
 			);
 			name = Frameworks;

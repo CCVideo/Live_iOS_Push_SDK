@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CCPushUtil.h</key>
 		<data>
-		EX+Lvu4PZ6ym22LackNtv8dUGOw=
+		uDGJoY90mobCCBYDiOWMObVTQic=
 		</data>
 		<key>Headers/PushParameters.h</key>
 		<data>
@@ -14,34 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WcV/nhk4GPNnnefJANX7Ab0KSMw=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		coR/v5rrR6zWBSjkEPXGgRCE2Cc=
+		entiXhAqVUWE/imhST5a3Whnfbs=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/CCPushUtil.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			uDGJoY90mobCCBYDiOWMObVTQic=
+			</data>
 			<key>hash2</key>
 			<data>
-			vhazYwS+vc0mpQd7dgkHQkaOAvQ4pa18G2MHbx09xsc=
+			kE0x07H8UEYpbeI8GgBJ00rg9bw7Q1CDfhRUejfoCr8=
 			</data>
 		</dict>
 		<key>Headers/PushParameters.h</key>
 		<dict>
+			<key>hash</key>
+			<data>
+			TISROG68dsBZFrp+bZ5BDlcF2Jw=
+			</data>
 			<key>hash2</key>
 			<data>
 			e8GkVViHrS7DtD73eldbeTREucrx+8eQYKhx/ucKSvw=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uyry9ERGkVbLcbRXoUCIPplXhLyHquKyAh46ZkuNbS4=
 			</data>
 		</dict>
 	</dict>
